@@ -1,0 +1,8 @@
+StudentID = []
+print ("Student ID should follow the format of 1 uppercase letter, followed by 2 lower case then 3 numbers")
+x = input("enter id")
+if x[0] == x[0].upper() and x[1:2] == x[1:2].lower() and x[3:5].isdigit():
+  StudentID.append(x)
+  print ("entry accepted")
+else:
+  print ("rejected because ..........")
